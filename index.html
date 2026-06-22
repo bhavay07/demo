@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>MySite</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#counter">Stats</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>I Am a <span class="typing"></span></h1>
+        <p>Interactive HTML CSS JavaScript Website</p>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <section class="section" id="services">
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Modern responsive websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>Development</h3>
+                <p>Interactive web applications.</p>
+            </div>
+
+            <div class="card">
+                <h3>SEO</h3>
+                <p>Rank higher on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section counter-section" id="counter">
+        <h2>Visitors</h2>
+        <div class="counter" id="count">0</div>
+    </section>
+
+    <footer>
+        © 2026 Interactive Website
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
